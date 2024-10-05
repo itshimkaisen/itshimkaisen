@@ -5,7 +5,7 @@ const { joinVoiceChannel } = require('@discordjs/voice');
 // إنشاء سيلف بوت باستخدام حسابك الشخصي
 const client = new Client({
     checkUpdate: false,  // لتعطيل التحقق من التحديثات
-    ws: { properties: { $browser: "Discord Android" } }  // لجعل الحالة تظهر على أنها من الجوال
+    ws: { properties: { $browser: "Discord Client" } }  // لجعل الحالة تظهر على أنها من الجوال
 });
 
 client.once('ready', () => {
